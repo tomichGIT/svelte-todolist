@@ -134,6 +134,10 @@
 </script>
 
 
+<!-- esto es si voy a hacer un webComponent, pero esta es una librería
+  <svelte:options tag="svelte-todolist" /> -->
+
+
 
 <main data-theme={tf_dark ? "halloween" : "light"}>
 
