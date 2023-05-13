@@ -52,4 +52,7 @@ import in your component:
 ```
 
 ## Crear la Librería en NPM (compatible con PNPM)
-run `pnpx svelte-kit package` 
+run `pnpx svelte-kit package`   // este no se usa porque use el template de package cuando hice el `create vite@lates`
+run `pnpm run build`
+run `cd package`
+run `npm publish --access public` o `npm publish`  para privado
