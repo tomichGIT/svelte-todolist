@@ -1,0 +1,27 @@
+{
+  "name": "kukumo-todolist",
+  "version": "0.0.1",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./Todolist.svelte",
+    "./Todolist.svelte": "./Todolist.svelte"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@sveltejs/adapter-auto": "^1.0.0-next.90",
+    "@sveltejs/kit": "^1.0.0-next.587",
+    "@sveltejs/package": "^1.0.0-next.6",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^2.51.6",
+    "postcss": "^8.4.23",
+    "svelte": "^3.54.0",
+    "svelte-check": "^2.9.2",
+    "svelte-preprocess": "^5.0.3",
+    "tailwindcss": "^3.3.2",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "type": "module",
+  "svelte": "./Todolist.svelte"
+}
